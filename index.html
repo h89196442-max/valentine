@@ -564,21 +564,7 @@ Happy Valentine’s, my pucchu. ❤️`;
       }, 250);
     });
 
-    /* ---------------- Extra Buttons ---------------- */
-    document.getElementById("moreConfetti").addEventListener("click", ()=>{
-      resizeConfettiCanvas();
-      burst();
-    });
-
-    document.getElementById("playMusic").addEventListener("click", ()=>{
-      playCuteTune();
-    });
-
-    document.getElementById("replay").addEventListener("click", ()=>{
-      // ✅ lock scroll again and go back to top
-      document.body.classList.remove("unlocked");
-      window.scrollTo({ top: 0, behavior: "smooth" });
-
+  
       // reset sections
       result.style.display = "none";
       zone.style.display = "block";
@@ -604,4 +590,5 @@ Happy Valentine’s, my pucchu. ❤️`;
   </script>
 </body>
 </html>
+
 
